@@ -1,6 +1,6 @@
-from pathlib import Path
 import logging
 import subprocess
+from pathlib import Path
 from unittest import TestCase, mock
 
 from strelka.scanners.scan_clamav import ScanClamav as ScanUnderTest
